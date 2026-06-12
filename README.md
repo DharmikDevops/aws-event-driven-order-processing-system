@@ -33,24 +33,7 @@ This architecture helps organizations:
 
 ## 🏗️ Architecture
 
-```text
-Customer Order Event
-         │
-         ▼
-Amazon EventBridge
-         │
-         ▼
-validate-order Lambda
-         │
-         ▼
- Amazon SQS Queue
-         │
-         ▼
-process-order Lambda
-         │
-         ▼
-  Amazon DynamoDB
-```
+![Architecture Diagram](architecture/event-driven-order-processing-system-architecture.drawio.png)
 
 ---
 
