@@ -85,9 +85,13 @@ Processed order details are stored in the DynamoDB `Orders` table.
 
 ## 📸 Screenshots
 
-### EventBridge Rule
+### EventBridge Rule Configuration
 
 ![EventBridge Rule](screenshots/eventbridge-rule.png)
+
+### EventBridge Target Configuration
+
+![EventBridge Target](screenshots/eventbridge-target.png)
 
 ### validate-order Lambda
 
